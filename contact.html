@@ -3,53 +3,72 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jessica Toro's Portfolio</title>
-
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
-	<!--this is the teal name box-->
- 	<header>
- 		<h1>Jessica Toro-Pacheco</h1>
- 	</header>
+		
+		<!--this is the teal name box-->
+	<div id="name">
+		<header>
+			<h1>Jessica Toro-Pacheco</h1>
+		</header>
+	</div>
 
 	<!--this is the nav bar-->
-	<nav>
-		<div id="nav-bar">
-			<p>about</p>
-			<p>portfolio</p>
-			<p>contact</p>
-		</div>
-	</nav>
+	<div id="nav-bar">
+		<nav>
+			<p>About \ Portfolio \ Contact</p>
+		</nav>
+	</div>
 
+	<div id="container">
+		<!--this is the about me section -->
+		<div class="section">
+			<h2 class="title">Contact Me</h2>
+			<hr>
+			
+			<!--this is form info-->
+			<div>
+				<p>Name</p>
+				<p>Email</p>
+				<p>Message</p>
+			<!--Submit Buttone-->
+				<p>Submit</p>
+			</div>
+			
 	
-	<!--this is the about me section -->
-	<h1>Contact Me</h1>
-	
-	<!--this is form info-->
-	<div>
-		<p>Name</p>
-		<p>Email</p>
-		<p>Message</p>
+		</div>
 	</div>
 	
-	<!--Submit Buttone-->
-	<p>Submit</p>
-	
-
 	<!--social media side bar-->
-	<h2>Connect with me</h2>
-	<img src="github.jpeg">
-	<img src="linkedin.png">
-	<img src="stackoverflow.png">
+	<div id="aside">
+			<h2>Connect with me</h2>
+			<hr>
+			<!--github-->
+			<a href="https://github.com/jessicatoro2">
+				<img src="assets/images/github.png">
+			</a>
+			
+			
+			<!--linkedin-->
+			<a href="https://www.linkedin.com/in/jessica-toro-pacheco-72504923/">
+				<img src="assets/images/linkedin.png">
+			</a>
 
+			<!--stackoverflow-->
+			<a href="https://meta.stackoverflow.com/users/8268229/jessicatoro">
+				<img src="assets/images/stackoverflow.png">
+			</a>
+	</div>
 	<!--this is the footer info-->
-	<footer>
-		<p>
-			© Copyright 2017 Jessica Toro-Pacheco
-		</p>
-	</footer>
-
+	<div id="footer">
+		<footer>
+			<p>© Copyright 2017 Jessica Toro-Pacheco
+			</p>
+		</footer>
+	</div>
 
 </body>
 </html>
